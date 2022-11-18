@@ -14,7 +14,7 @@ struct CoffeeshopDetailView: View {
         ZStack{
             LinearGradient(colors: [.clear,.gray], startPoint: .topLeading, endPoint: .bottomTrailing)
                             .ignoresSafeArea()
-            VStack(spacing: 0) {
+            VStack(spacing:0) {
                 ZStack{
                     Image(coffeshop.image)
                         .resizable()

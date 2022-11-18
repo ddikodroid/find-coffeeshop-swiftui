@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2DCD75742927EBC600386739 /* FindCoffeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoffeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DCD75742927EBC600386739 /* FindCoffeeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindCoffeeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCD75772927EBC600386739 /* FindCoffeshopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCoffeshopApp.swift; sourceTree = "<group>"; };
 		2DCD75792927EBC600386739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DCD757B2927EBC700386739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		2DCD756B2927EBC600386739 = {
 			isa = PBXGroup;
 			children = (
-				2DCD75762927EBC600386739 /* FindCoffeshop */,
+				2DCD75762927EBC600386739 /* FindCoffeeshop */,
 				2DCD75752927EBC600386739 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +49,12 @@
 		2DCD75752927EBC600386739 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DCD75742927EBC600386739 /* FindCoffeshop.app */,
+				2DCD75742927EBC600386739 /* FindCoffeeshop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DCD75762927EBC600386739 /* FindCoffeshop */ = {
+		2DCD75762927EBC600386739 /* FindCoffeeshop */ = {
 			isa = PBXGroup;
 			children = (
 				2DCD75862927EBEE00386739 /* View */,
@@ -64,7 +64,7 @@
 				2DCD757B2927EBC700386739 /* Assets.xcassets */,
 				2DCD757D2927EBC700386739 /* Preview Content */,
 			);
-			path = FindCoffeshop;
+			path = FindCoffeeshop;
 			sourceTree = "<group>";
 		};
 		2DCD757D2927EBC700386739 /* Preview Content */ = {
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DCD75732927EBC600386739 /* FindCoffeshop */ = {
+		2DCD75732927EBC600386739 /* FindCoffeeshop */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DCD75822927EBC700386739 /* Build configuration list for PBXNativeTarget "FindCoffeshop" */;
+			buildConfigurationList = 2DCD75822927EBC700386739 /* Build configuration list for PBXNativeTarget "FindCoffeeshop" */;
 			buildPhases = (
 				2DCD75702927EBC600386739 /* Sources */,
 				2DCD75712927EBC600386739 /* Frameworks */,
@@ -107,9 +107,9 @@
 			);
 			dependencies = (
 			);
-			name = FindCoffeshop;
+			name = FindCoffeeshop;
 			productName = FindCoffeshop;
-			productReference = 2DCD75742927EBC600386739 /* FindCoffeshop.app */;
+			productReference = 2DCD75742927EBC600386739 /* FindCoffeeshop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2DCD756F2927EBC600386739 /* Build configuration list for PBXProject "FindCoffeshop" */;
+			buildConfigurationList = 2DCD756F2927EBC600386739 /* Build configuration list for PBXProject "FindCoffeeshop" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -140,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DCD75732927EBC600386739 /* FindCoffeshop */,
+				2DCD75732927EBC600386739 /* FindCoffeeshop */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FindCoffeshop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FindCoffeeshop/Preview Content\"";
 				DEVELOPMENT_TEAM = KGY548TG62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -323,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FindCoffeshop/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FindCoffeeshop/Preview Content\"";
 				DEVELOPMENT_TEAM = KGY548TG62;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -348,7 +348,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DCD756F2927EBC600386739 /* Build configuration list for PBXProject "FindCoffeshop" */ = {
+		2DCD756F2927EBC600386739 /* Build configuration list for PBXProject "FindCoffeeshop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DCD75802927EBC700386739 /* Debug */,
@@ -357,7 +357,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DCD75822927EBC700386739 /* Build configuration list for PBXNativeTarget "FindCoffeshop" */ = {
+		2DCD75822927EBC700386739 /* Build configuration list for PBXNativeTarget "FindCoffeeshop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2DCD75832927EBC700386739 /* Debug */,
