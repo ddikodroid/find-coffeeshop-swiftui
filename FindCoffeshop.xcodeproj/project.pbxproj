@@ -11,6 +11,9 @@
 		2DCD757A2927EBC600386739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75792927EBC600386739 /* ContentView.swift */; };
 		2DCD757C2927EBC700386739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD757B2927EBC700386739 /* Assets.xcassets */; };
 		2DCD757F2927EBC700386739 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD757E2927EBC700386739 /* Preview Assets.xcassets */; };
+		2DCD75882927EC9400386739 /* CoffeshopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75872927EC9400386739 /* CoffeshopModel.swift */; };
+		2DCD758A2927ECBD00386739 /* CoffeeshopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75892927ECBD00386739 /* CoffeeshopListView.swift */; };
+		2DCD758C2927F3FC00386739 /* CoffeeshopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD758B2927F3FC00386739 /* CoffeeshopDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		2DCD75792927EBC600386739 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DCD757B2927EBC700386739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DCD757E2927EBC700386739 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DCD75872927EC9400386739 /* CoffeshopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeshopModel.swift; sourceTree = "<group>"; };
+		2DCD75892927ECBD00386739 /* CoffeeshopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopListView.swift; sourceTree = "<group>"; };
+		2DCD758B2927F3FC00386739 /* CoffeeshopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,8 @@
 		2DCD75762927EBC600386739 /* FindCoffeshop */ = {
 			isa = PBXGroup;
 			children = (
+				2DCD75862927EBEE00386739 /* View */,
+				2DCD75852927EBE700386739 /* Model */,
 				2DCD75772927EBC600386739 /* FindCoffeshopApp.swift */,
 				2DCD75792927EBC600386739 /* ContentView.swift */,
 				2DCD757B2927EBC700386739 /* Assets.xcassets */,
@@ -65,6 +73,23 @@
 				2DCD757E2927EBC700386739 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DCD75852927EBE700386739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DCD75872927EC9400386739 /* CoffeshopModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DCD75862927EBEE00386739 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DCD75892927ECBD00386739 /* CoffeeshopListView.swift */,
+				2DCD758B2927F3FC00386739 /* CoffeeshopDetailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DCD75882927EC9400386739 /* CoffeshopModel.swift in Sources */,
 				2DCD757A2927EBC600386739 /* ContentView.swift in Sources */,
+				2DCD758A2927ECBD00386739 /* CoffeeshopListView.swift in Sources */,
+				2DCD758C2927F3FC00386739 /* CoffeeshopDetailView.swift in Sources */,
 				2DCD75782927EBC600386739 /* FindCoffeshopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
