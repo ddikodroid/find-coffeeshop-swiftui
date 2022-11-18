@@ -14,6 +14,7 @@
 		2DCD75882927EC9400386739 /* CoffeshopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75872927EC9400386739 /* CoffeshopModel.swift */; };
 		2DCD758A2927ECBD00386739 /* CoffeeshopListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD75892927ECBD00386739 /* CoffeeshopListView.swift */; };
 		2DCD758C2927F3FC00386739 /* CoffeeshopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCD758B2927F3FC00386739 /* CoffeeshopDetailView.swift */; };
+		2DCD758F2927FFE400386739 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2DCD758E2927FFE400386739 /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		2DCD75872927EC9400386739 /* CoffeshopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeshopModel.swift; sourceTree = "<group>"; };
 		2DCD75892927ECBD00386739 /* CoffeeshopListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopListView.swift; sourceTree = "<group>"; };
 		2DCD758B2927F3FC00386739 /* CoffeeshopDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopDetailView.swift; sourceTree = "<group>"; };
+		2DCD758D2927FFC100386739 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2DCD758E2927FFE400386739 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		2DCD756B2927EBC600386739 = {
 			isa = PBXGroup;
 			children = (
+				2DCD758E2927FFE400386739 /* demo.gif */,
+				2DCD758D2927FFC100386739 /* README.md */,
 				2DCD75762927EBC600386739 /* FindCoffeeshop */,
 				2DCD75752927EBC600386739 /* Products */,
 			);
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCD757F2927EBC700386739 /* Preview Assets.xcassets in Resources */,
+				2DCD758F2927FFE400386739 /* demo.gif in Resources */,
 				2DCD757C2927EBC700386739 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
